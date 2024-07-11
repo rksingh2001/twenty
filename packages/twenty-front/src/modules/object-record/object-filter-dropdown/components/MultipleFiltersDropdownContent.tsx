@@ -55,7 +55,6 @@ export const MultipleFiltersDropdownContent = ({
         selectedOperandInDropdown && (
           <>
             <ObjectFilterDropdownOperandButton />
-            <DropdownMenuSeparator />
             {[
               'TEXT',
               'EMAIL',
